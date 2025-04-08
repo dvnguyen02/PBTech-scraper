@@ -1,41 +1,329 @@
-Product Name,Price
-"HP EliteBook 660 G11 Business Laptop 16"" WUXGA
-Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y NBD Onsite Warranty - AX WiFi 6E + BT5.3 - FPR - IR Cam",.
-"HP Probook 460 G11 Business Laptop 16"" WUXGA
-Intel Core Ultra 5 125U - 16GB RAM - 256GB SSD - Win 11 Pro - 1Y Onsite Warranty",.
-"HP 255 G10 15.6"" FHD
-AMD Ryzen 7 7730U - 32GB RAM - 1TB SSD - Win 11 Pro - AX WiFi 6 + BT5.3 - Webcam - 1yr PB warranty",.
-"HP 255 G10 15.6"" FHD
-AMD Ryzen 7 7730U - 16GB RAM - 1TB SSD - Win 11 Pro - AX WiFi 6 + BT5.3 - Webcam - 1yr PB warranty",.
-"HP Probook 460 G11 Business Laptop 16"" WUXGA
-Intel Core Ultra 7 155U - 32GB RAM - 1TB SSD - Win 11 Pro - 1Y Onsite Warranty",.
-"HP ProBook 440 G11 Business Laptop 14"" WUXGA
-Intel Core Ultra 5-125U - 16GB RAM - 256GB SSD - Win 11 Pro - 1Y Onsite Warranty",.
-"HP ZBook Power G11 Mobile Workstation 16"" FHD Touch
-Intel Core Ultra 7 155H - 32GB RAM - 1TB SSD - RTX A2000 Ada - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - IR Webcam - 3Y NBD Onsite Warranty",.
-"HP ProBook 460 G11 Business Laptop 16"" WUXGA Touch
-Intel Core Ultra 7 155H - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty",.
-"Dell Inspiron 3000 Series 3520 Business Laptop 15.6"" FHD
-Intel Core i5-1235U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Warranty",.
-"HP Elitebook 640 G11 Business Laptop 14"" WUXGA
-Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - 3Y NBD Onsite Warranty",.
-"HP Probook 460 G11 Business Laptop 16"" WUXGA
-Intel Core Ultra 7 155U - 16GB RAM - 256GB SSD - Win 11 Pro - 1Y Onsite Warranty",.
-"HP Probook 460 G11 Business Laptop 16"" WUXGA
-Intel Core Ultra 7 155U - 16GB RAM - 500GB SSD - Win 11 Pro - 1Y Onsite Warranty",.
-"HP Probook 460 G11 Business Laptop 16"" WUXGA
-Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty",.
-"Lenovo ThinkPad X12 Detachable Business Laptop 12.3"" FHD Touch
-Intel Core i5-1130G7 - 16GB RAM - 256GB SSD - AX WiFi 6 + BT5.1 - Front IR Cam / Rear Cam - Backlit Keyboard - with Pen - TB 4 / USB4 (PD & DP1.4) - Win 10 Pro - 3Y Premier Onsite Warranty",.
-"HP Probook 460 G11 Business Laptop 16"" WUXGA
-Intel Core Ultra 7 155U - 32GB RAM - 256GB SSD - Win 11 Pro - 1Y Onsite Warranty",.
-"Apple MacBook Air 15"" Laptop with M3 Chip - Midnight
-16GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger",.
-"HP EliteBook 640 G11 Business Laptop 14"" WUXGA
-Intel Core Ultra 7-155U - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y Onsite Warranty",.
-"Dell Latitude 3000 Series 3440 Laptop 14"" FHD
-Intel Core i5-1235U - 16GB RAM - 256GB SSD - Win 11 Pro - 1yr warranty - AX WiFi 6E + BT5.3 - Webcam",.
-"HP EliteBook 840 G10 Business Laptop 14"" WUXGA
-Intel Core i5-1335U - 16GB RAM - 256GB SSD - Win 11 Pro - AX WiFi 6E vPro + BT5.3 - 3Y NBD Onsite Warranty",.
-"Dell Inspiron 5000 Series 5440 Business Laptop 14"" FHD
-Intel Core i5-1334U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Warranty",.
+Product Name,Specification,Price
+"HP EliteBook 660 G11 Business Laptop 16"" WUXGA",Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y NBD Onsite Warranty - AX WiFi 6E + BT5.3 - FPR - IR Cam,"1,805.50"
+"HP Probook 460 G11 Business Laptop 16"" WUXGA",Intel Core Ultra 5 125U - 16GB RAM - 256GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,758.63"
+"HP 255 G10 15.6"" FHD",AMD Ryzen 7 7730U - 32GB RAM - 1TB SSD - Win 11 Pro - AX WiFi 6 + BT5.3 - Webcam - 1yr PB warranty,"1,519.53"
+"HP 255 G10 15.6"" FHD",AMD Ryzen 7 7730U - 16GB RAM - 1TB SSD - Win 11 Pro - AX WiFi 6 + BT5.3 - Webcam - 1yr PB warranty,"1,368.50"
+"HP Probook 460 G11 Business Laptop 16"" WUXGA",Intel Core Ultra 7 155U - 32GB RAM - 1TB SSD - Win 11 Pro - 1Y Onsite Warranty,"2,288.50"
+"HP ProBook 440 G11 Business Laptop 14"" WUXGA",Intel Core Ultra 5-125U - 16GB RAM - 256GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,605.40"
+"HP ZBook Power G11 Mobile Workstation 16"" FHD Touch",Intel Core Ultra 7 155H - 32GB RAM - 1TB SSD - RTX A2000 Ada - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - IR Webcam - 3Y NBD Onsite Warranty,"3,537.50"
+"HP ProBook 460 G11 Business Laptop 16"" WUXGA Touch",Intel Core Ultra 7 155H - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,999.85"
+"Dell Inspiron 3000 Series 3520 Business Laptop 15.6"" FHD",Intel Core i5-1235U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Warranty,"1,320.20"
+"HP Elitebook 640 G11 Business Laptop 14"" WUXGA",Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - 3Y NBD Onsite Warranty,"1,817.00"
+"HP Probook 460 G11 Business Laptop 16"" WUXGA",Intel Core Ultra 7 155U - 16GB RAM - 256GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,916.67"
+"HP Probook 460 G11 Business Laptop 16"" WUXGA",Intel Core Ultra 7 155U - 16GB RAM - 500GB SSD - Win 11 Pro - 1Y Onsite Warranty,"2,001.00"
+"HP Probook 460 G11 Business Laptop 16"" WUXGA",Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,863.00"
+"Lenovo ThinkPad X12 Detachable Business Laptop 12.3"" FHD Touch",Intel Core i5-1130G7 - 16GB RAM - 256GB SSD - AX WiFi 6 + BT5.1 - Front IR Cam / Rear Cam - Backlit Keyboard - with Pen - TB 4 / USB4 (PD & DP1.4) - Win 10 Pro - 3Y Premier Onsite Warranty,"2,841.18"
+"HP Probook 460 G11 Business Laptop 16"" WUXGA",Intel Core Ultra 7 155U - 32GB RAM - 256GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,943.50"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Midnight",16GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,645.00"
+"HP EliteBook 640 G11 Business Laptop 14"" WUXGA",Intel Core Ultra 7-155U - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y Onsite Warranty,"2,050.29"
+"Dell Latitude 3000 Series 3440 Laptop 14"" FHD",Intel Core i5-1235U - 16GB RAM - 256GB SSD - Win 11 Pro - 1yr warranty - AX WiFi 6E + BT5.3 - Webcam,"1,396.43"
+"HP EliteBook 840 G10 Business Laptop 14"" WUXGA",Intel Core i5-1335U - 16GB RAM - 256GB SSD - Win 11 Pro - AX WiFi 6E vPro + BT5.3 - 3Y NBD Onsite Warranty,"1,986.37"
+"Dell Inspiron 5000 Series 5440 Business Laptop 14"" FHD",Intel Core i5-1334U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Warranty,"1,341.67"
+Microsoft Surface Laptop Studio 2,Intel Core i7 13th Gen - 64GB RAM - 1TB SSD - NVIDIA GeForce RTX 4060 - Win 11 Home,"5,999.00"
+"Apple MacBook Air 15"" Laptop with M2 Chip - Midnight",8GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,189.00"
+"Dell Latitude 5000 Series 5550 Business Laptop 15.6"" FHD",Intel Core Ultra 7 165U - 32GB RAM - 512GB SSD - Win 11 Pro - 1Y Warranty,"2,622.00"
+"HP ProBook 460 G11 Business Laptop 16"" WUXGA Touch",Intel Core Ultra 5 125H - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,955.00"
+"Dell Latitude 5000 Series 5540 Business Laptop 15.6"" FHD",Intel Core i5-1345U vPro - 16GB RAM - 512G SSD (256GB x2) - Win 11 Pro - AX WiFi 6E + BT5 - FHD Camera - Backlit Keyboard - 1Y Warranty,"1,568.19"
+Microsoft Surface Laptop Studio 2,Intel Core i7 13th Gen - 16GB RAM - 512GB SSD - Intel Core Iris Xe - Win 11 Home,"3,795.00"
+"HP ProBook 460 G11 Business Laptop 16"" WUXGA Touch",Intel Core Ultra 7 155H - 32GB RAM - 1TB SSD - Win 11 Pro - 1Y Onsite Warranty,"2,352.90"
+"HP ProBook 460 G11 LTE Business Laptop 16"" WUXGA",Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Win 11 Pro - AX WiFi6E + BT5.3 - Webcam - USB-C (with PD & DP1.4) - HDMI2.1,"1,794.00"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Midnight",16GB Unified Memory - 256GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,255.00"
+"HP ProBook 445 G11 Business Laptop 14"" WUXGA Touch",AMD Ryzen 5 7535U - 16GB RAM - 256GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,609.00"
+"HP EliteBook x360 830 G11 13.3"" FHD BV 400nits Touch Business Laptop",Intel Core U5-125U - 16GB RAM - 256GB SSD - AX WiFi 6E + BT5.3 - Wacom Pen - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"2,300.00"
+"Dell Latitude 5000 Series 5540 Business Laptop 15.6"" FHD",Intel Core i5-1345U vPro - 16GB RAM - 256GB SSD - Win 11 Pro - AX WiFi 6E + BT5 - FHD Camera - Backlit Keyboard - 1Y Warranty,"1,437.50"
+"HP ProBook 460 G11 Business Laptop 16"" WUXGA",Intel Core Ultra 7 155H - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,909.00"
+"Dell Inspiron 3000 Series 3520 Business Laptop 15.6"" FHD",Intel Core i5-1235U - 8GB RAM - 512GB SSD - Win 11 Pro - 1Y Warranty,"1,207.50"
+Microsoft Surface Laptop Studio 2,Intel Core i7 13th Gen - 32GB RAM - 1TB SSD - NVIDIA GeForce RTX 4050 - Win 11 Home,"5,298.99"
+"Lenovo ThinkPad X1 Carbon G11 14"" WUXGA Touch Laptop",Intel Core i7-1355U - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y Onsite Warranty,"3,396.92"
+"Dell Latitude 5440 Business Laptop 14"" FHD",Intel i5-1345U - 16GB RAM - 256GB SSD - Win 11 Pro - IR Cam - 1yr warranty,"1,408.75"
+"HP EliteBook 840 G11 Business Laptop 14"" FHD AG 300nits",Intel Core Ultra 7-155U - 32GB RAM - 1TB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"2,846.25"
+"HP ProBook 440 G11 Business Laptop 14"" WUXGA",Intel Core Ultra 5-125U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,721.55"
+"Lenovo ThinkPad X1 Carbon G11 14"" WUXGA Business Laptop",Intel Core i5-1335U - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y Onsite Warranty - IR Cam - Wi-Fi 6E + BT5.3,"3,102.54"
+"HP EliteBook x360 1040 G11 14"" FHD AG 400nits Touch Business Laptop",Intel Core U5-125H - 16GB RAM - 512GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - with Wacom Pen - 3Y NBD Onsite Warranty,"3,722.00"
+"HP EliteBook 630 G11 Business Laptop 13.3"" WUXGA",Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - 3Y NBD Onsite Warranty,"2,029.42"
+"HP EliteBook 660 G11 Business Laptop 16"" WUXGA",Intel Core Ultra 5 125U - 32GB RAM - 1TB SSD - Win 11 Pro - 3Y NBD Onsite Warranty - AX WiFi 6E + BT5.3 - FPR - IR Cam,"2,296.55"
+"HP Probook 460 G11 Business Laptop 16"" WUXGA",Intel Core Ultra 5 125U - 32GB RAM - 1TB SSD - Win 11 Pro - 1Y Onsite Warranty,"2,024.00"
+"Dynabook Portege X30W-K Business Laptop 13.3"" FHD Touch",Intel Core i5-1240P - 16GB RAM - 256GB SSD - Win 10 Pro (Win 11 Pro Lic) - AX WiFi 6E + BT5.2 - IR Cam - Thunderbolt 4 (PD & DP) - HDMI2.0 - MicroSD Reader - with Pen - 3Y Warranty,"1,653.12"
+"HP EliteBook 840 G11 LTE Business Laptop 14"" FHD AG 1000nits SV",Intel Core Ultra 7-165U - vPro - 32GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - IR Cam - 3Y NBD Onsite Warranty,"3,246.29"
+"HP Elite Dragonfly G4 LTE Business Laptop 13.5"" WUXGA+ Touch 1000n",Intel Core i7-1365U vPro - 32GB RAM - 1TB SSD - Win 11 Pro - 3Y NBD Onsite Warranty - AX WiFi 6E + BT5.3,"5,024.34"
+"HP ProBook 460 G11 Business Laptop 16"" WUXGA Touch",Intel Core Ultra 7 155H - 32GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty,"2,139.00"
+Microsoft Surface Laptop Studio 2,Intel Core i7 13th Gen - 16GB RAM - 512GB SSD - NVIDIA GeForce RTX 4050 - Win 11 Home,"4,599.00"
+"HP EliteBook 650 G10 Business Laptop 15.6"" FHD",Intel Core i5-1335U - 64GB RAM - 2TB SSD - Win 11 Pro - AX WiFi 6E + BT5.2 - 3Y NBD Onsite Warranty,"3,323.50"
+"Lenovo ThinkBook 14 G7 Business Laptop 14"" WUXGA",Intel Core Ultra 7 155U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,894.05"
+"HP EliteBook 840 G11 14"" FHD AG 300nits Touch Business Laptop",Intel Core U7-165U - vPro - 16GB RAM - 512GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"2,638.24"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Space Grey",16GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,645.00"
+"MSI Prestige 16 AI+ Evo B2VMG-010NZ NetxGen AI PC 16"" UHD+ OLED",Intel Core Ultra 9 288V - 32GB RAM - 1TB SSD - Win 11 Pro - 1Y Warranty - BE WiFi 7 + BT5.4,"3,599.01"
+"HP 255 G10 15.6"" FHD",AMD Ryzen 7 7730U - 16GB RAM - 500GB SSD - Win 11 Pro - AX WiFi 6 + BT5.3 - Webcam - 1yr PB warranty,"1,288.00"
+"ASUS Zenbook 14 UX3405CA Business Laptop 14"" 2K 120Hz Touch OLED",Intel Core Ultra 9 285H - 32GB RAM - 1TB SSD - Win 11 Pro - BE WiFi7 + BT5.4 - IR Cam - Thunderbolt4 (with PD & DP) - HDMI2.1 TMDS - 1yr warranty,"2,999.00"
+"HP ZBook Power G11 Mobile Workstation 16"" FHD Touch",Intel Core Ultra 7 155H - 32GB RAM - 512GB SSD - RTX 1000 Ada - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - IR Webcam - 3Y NBD Onsite Warranty,"3,404.61"
+"HP ProBook 440 G11 Business Laptop 14"" WUXGA",Intel Core Ultra 7-155U - 32GB RAM - 1TB SSD - Win 11 Pro - 1Y Onsite Warranty,"2,129.80"
+"HP EliteBook 840 G11 LTE Business Laptop 14"" FHD AG 300nits Touch",Intel Core U7-155U - 16GB RAM - 256GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - IR Cam - 3Y NBD Onsite Warranty,"2,570.58"
+"Apple Macbook Pro 16"" Laptop with M3 Pro Chip - Silver",36GB Unified Memory - 512GB SSD - 12-Core CPU - 18-Core GPU - 16-inch Liquid Retina XDR Display - 140W USB-C Power Adapter,"4,999.00"
+"HP EliteBook 660 G11 16"" FHD AG 300nits Business Laptop",Intel Core U7-155U - 16GB RAM - 512GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"2,070.00"
+"Dell Latitude 5000 Series 5450 Business Laptop 14"" FHD",Intel Core Ultra 7 155U - 32GB RAM - 512GB SSD - Win 11 Pro - 1Y PB Warranty,"2,559.82"
+"HP EliteBook 840 G10 Business Laptop 14"" WUXGA",Intel Core i5-1335U - 32GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E vPro + BT5.3 - 3Y NBD Onsite Warranty,"2,333.66"
+"HP ZBook Power G11 Mobile Workstation 16"" FHD Touch",Intel Core Ultra 7 155H - 16GB RAM - 512GB SSD - RTX A500 Ada - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - IR Webcam - 3Y NBD Onsite Warranty,"2,966.66"
+"Dell Latitude 5000 Series 5440 Business Laptop 14"" FHD",Intel Core i7-1365U - 16GB RAM - 256GB SSD - AX WiFi 6E + BT5.2 - FHD Camera - Backlit keyboard - Win 11 Pro - 1Y Onsite Warranty,"1,782.50"
+"HP ProBook 440 G11 Business Laptop 14"" FHD AG Touch",Intel Core Ultra 7-155H - 16GB RAM - 512GB SSD - AX WiFi 6E + BT5.3 - FHD Cam - USB-C (PD & DP2.1) - HDMI2.1b - Backlit Keyboard - Win 11 Pro - 1Y Onsite Warranty,"2,471.65"
+"Apple Macbook Air 13"" Laptop with M3 Chip - CTO - - Midnight",16GB Unified Memory - 1TB SSD - 8-Core CPU - 10-Core GPU - 35W Dual USB-C Port Power Adapter,"2,699.00"
+"HP EliteBook x360 1040 G11 14"" FHD AG 400nits Business Laptop Touchscreen",Intel Core U5-135H - vPro - 16GB RAM - 512GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - with Wacom Pen - 3Y NBD Onsite Warranty,"2,739.68"
+"HP ProBook 440 G11 Business Laptop 14"" WUXGA",Intel Core Ultra 7-155U - 16GB RAM - 256GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,696.00"
+"HP EliteBook 660 G11 Business Laptop 16"" WUXGA",Intel Core Ultra 5 125U - 32GB RAM - 512GB SSD - Win 11 Pro - 3Y NBD Onsite Warranty - AX WiFi 6E + BT5.3 - FPR - IR Cam,"2,012.50"
+"Dell Latitude 5000 Series 5440 Business Laptop 14"" FHD",Intel Core i7-1365U - 32GB RAM - 1TB SSD - AX WiFi 6E + BT5.2 - FHD Camera - Backlit keyboard - Win 11 Pro - 1Y Onsite Warranty,"2,104.50"
+"HP Elitebook 665 G11 16"" WUXGA Touch Laptop",AMD Ryzen 5 7535U - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y Onsite warranty,"1,769.00"
+"Dell Latitude 5000 Series 5550 Business Laptop 15.6"" FHD",Intel Core Ultra 7 165U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Warranty,"2,368.45"
+"Apple Macbook Pro 16"" Laptop with M3 Max Chip - Silver",48GB Unified Memory - 1TB SSD - 16-Core CPU - 40-Core GPU - 16-inch Liquid Retina XDR Display - 140W USB-C Power Adapter,"6,499.00"
+"ASUS Zenbook S 16 UM5606KA 16"" 3K 120Hz OLED",AMD Ryzen AI 7 350 - 16GB RAM - 1TB SSD - Win 11 Pro - BE WiFi7 + BT5.4 - IR Cam - USB4 (with PD & DP) - HDMI2.1 TMDS - SD Reader - 1yr warranty,"3,199.00"
+"HP EliteBook 840 G10 Business Laptop 14"" WUXGA",Intel Core i5-1335U - 16GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E vPro + BT5.3 - 3Y NBD Onsite Warranty,"2,137.68"
+"Dell Latitude 5000 Series 5450 Business Laptop 14"" FHD",Intel Core Ultra 7 155U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y PB Warranty,"2,293.24"
+"HP EliteBook 1040 G11 14"" FHD AG 400nits Business Laptop",Intel Core U7-165H - vPro - 16GB RAM - 512GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"3,382.36"
+"HP ProBook 465 G11 Business Laptop 16"" WUXGA",AMD Ryzen 7 7735U - 16GB RAM - 256GB SSD - Win 11 Pro - 1Y Onsite Warranty,"2,035.50"
+"HP Elitebook Ultra G1 14"" 2.2K Copilot+ PC",12 Cores Qualcomm Snapdragon X Elite - 16GB RAM - 512GB SSD - Qualcomm Adreno GPU - Win 11 Pro - 3Y Onsite Warranty - WiFi & BT - IR Webcam - USB-C (PD & DP1.4),"2,586.00"
+"HP EliteBook 665 G11 Business Laptop 16"" WUXGA",AMD Ryzen 5 7535U - 16GB RAM - 256GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - 3Y NBD Onsite Warranty,"1,380.00"
+"HP ProBook 440 G11 Business Laptop 14"" WUXGA",Intel Core Ultra 5-125U - 32GB RAM - 1TB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,926.25"
+"HP EliteBook 840 G11 LTE Business Laptop 14"" FHD AG 300nits Touch",Intel Core U5-135U - vPro - 16GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - IR Cam - 3Y NBD Onsite Warranty,"2,760.00"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Silver",16GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,645.00"
+"HP EliteBook 630 G11 Business Laptop 13.3"" WUXGA",Intel Core Ultra 7 155U - 16GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - 3Y NBD Onsite Warranty,"2,078.00"
+"Acer Extensa 15 EX215-55 15.6"" FHD Intel Core i5-1235U - 8GB RAM - 256GB SSD - Win 11 Pro",- AC WiFi 6 + BT - Webcam - HDMI2.1 - 3Y Warranty,"1,155.00"
+"HP ZBook Power G11 Mobile Workstation 16"" FHD Touch",Intel Core Ultra 7 155H - 32GB RAM - 1TB SSD - RTX A3000 Ada - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - IR Webcam - 3Y NBD Onsite Warranty,"4,421.61"
+"Apple Macbook Pro 16"" Laptop with M3 Pro Chip - CTO - - Silver",18GB Unified Memory - 1TB SSD - 12-Core CPU - 18-Core GPU - 16-inch Liquid Retina XDR Display - 140W USB-C Power Adapter,"4,599.00"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Starlight",16GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,645.00"
+"HP EliteBook x360 1040 G11 LTE Business Laptop 14"" FHD BV 1000nits Touch",Intel Core U7-165H - vPro - 32GB RAM - 512GB SSD - Win 11 Pro -AX WiFi 6E + BT5.3 - FPR - IR Cam - with Wacom Pen - 3Y NBD Onsite Warranty,"5,103.69"
+"HP EliteBook 830 G11 13.3"" FHD AG 400nits Business Laptop",Intel Core U5-125U - 16GB RAM - 256GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"2,232.36"
+"HP EliteBook x360 830 G11 LTE Business Laptop 13.3"" FHD BV 400nits Touch",Intel Core U7-165U - vPro - 32GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - Wacom Pen - FPR - IR Cam - 3Y NBD Onsite Warranty,"3,307.96"
+"Dell Latitude 5000 Series 5340 Flip 2in1 Business Laptop 13.3"" FHD Touch",Intel Core i5-1335U - 16GB RAM - 256GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,343.54"
+"HP EliteBook x360 830 G11 LTE Business Laptop 13.3"" FHD AG 1000nits SV Touch",Intel Core U5-135U - vPro - 16GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - Wacom Pen - FPR - IR Cam - 3Y NBD Onsite Warranty,"2,695.92"
+"HP ProBook x360 435 G10 Flip Business Laptop - with Pen 13.3"" FHD BV Touch",AMD Ryzen 5 7530U - 16GB RAM - 256GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - 5MP Cam - USB-C (PD & DP2.1) - HDMI2.1b - Backlit Keyboard - 1Y Onsite Warranty,"1,661.26"
+"HP EliteBook 640 G11 14"" WUXGA Touch Laptop",Intel Core Ultra 7 155U - 16GB RAM - 512GB SSD- Win 11 Pro - 3Y Onsite warranty,"2,844.00"
+"HP ProBook 440 G11 Business Laptop 14"" WUXGA",Intel Core Ultra 5-125U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty,"2,085.32"
+"Lenovo ThinkPad L14 G4 14"" FHD Laptop",Intel Core i5-1335U - 16GB RAM - 256GB SSD - Win 11 Pro - AX WiFi 6E + BT5.1 - 1Y Onsite Warranty,"1,834.00"
+"Dynabook Tecra A50-K Business Laptop 15.6"" FHD",Intel Core i7-1360P - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y Warranty - Thunderbolt,"2,185.00"
+"HP EliteBook 840 G11 LTE Business Laptop 14"" FHD AG 300nits Touch",Intel Core U5-125U - 16GB RAM - 256GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - IR Cam - 3Y NBD Onsite Warranty,"2,546.10"
+"HP EliteBook 830 G11 13.3"" FHD AG 300nits Touch Business Laptop",Intel Core U5-135U - vPro - 16GB RAM - 256GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"2,300.00"
+"HP EliteBook 860 G11 LTE Business Laptop 16"" FHD Touch AG 300nits",Intel Core U7-165U - vPro - 16GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - IR Cam - 3Y NBD Onsite Warranty,"3,783.99"
+"HP Elite Dragonfly G4 13.5"" WUXGA+ 400n Touch Business Laptop",Intel Core i7-1355U - 16GB RAM - 256GB NVMe SSD - AX WiFi 6E + BT5.3 - Win 11 Pro - 3Y NBD Onsite Warranty,"2,572.00"
+"HP EliteBook 860 G11 16"" FHD AG 300nits Business Laptop",Intel Core U5-135U - vPro - 16GB RAM - 512GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"3,041.74"
+"HP ZBook Studio G11 Mobile Workstation 16"" WUXGA",Intel Core Ultra 7 155H - 32GB RAM - 1TB SSD - NVIDIA RTX 4070 - Win 11 Pro - 3Y NBD Onsite Warranty - AX WiFi 7 + BT5.4,"5,518.85"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Starlight",16GB Unified Memory - 256GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,255.00"
+"HP EliteBook 660 G11 16"" FHD AG 300nits Touch Business Laptop",Intel Core U7-155U - 16GB RAM - 512GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"2,176.34"
+"HP EliteBook 830 G11 13.3"" FHD AG 400nits Business Laptop",Intel Core U5-135U - vPro - 16GB RAM - 256GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"2,232.36"
+"HP EliteBook 640 G11 14"" WUXGA Touch Laptop",Intel U5-125U - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y Onsite Warranty,"2,641.30"
+"ASUS ExpertBook B1 B1402CVA-NK0780X 14"" FHD Intel Core i5-1335U - 16GB RAM - 256GB SSD - Win 11 Pro",- AX WiFi 6E + BT5.3 - Webcam - USB-C - HDMI1.4 - 1Y Warranty,"1,433.94"
+"HP EliteBook 860 G11 16"" FHD Touch AG 300nits Business Laptop",Intel Core U7-165H - vPro - 32GB RAM - 512GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"3,759.35"
+"Dell Latitude 5000 Series 5450 Business Laptop 14"" FHD",Intel Core Ultra 7 155U - 32GB RAM - 2TB SSD - Win 11 Pro - 1Y PB Warranty,"3,049.80"
+"HP EliteBook 840 G11 Business Laptop 14"" FHD AG 300nits",Intel Core Ultra 5-125U - 16GB RAM - 256GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"2,705.65"
+"HP EliteBook 840 G10 Business Laptop 14"" WUXGA",Intel Core i5-1335U - 32GB RAM - 1TB SSD - Win 11 Pro - AX WiFi 6E vPro + BT5.3 - 3Y NBD Onsite Warranty,"2,459.91"
+"HP ProBook 460 G11 Business Laptop 16"" WUXGA Touch",Intel Core Ultra 5 125H - 32GB RAM - 1TB SSD - Win 11 Pro - 1Y Onsite Warranty,"2,185.00"
+"HP EliteBook x360 1040 G11 14"" FHD AG 400nits Touch 4G/LTE Business Laptop",Intel Core U5-135H - vPro - 16GB RAM - 512GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - with Wacom Pen - 3Y NBD Onsite Warranty,"2,998.79"
+"Apple Macbook Pro 16"" Laptop with M3 Max Chip - Space Black",48GB Unified Memory - 1TB SSD - 16-Core CPU - 40-Core GPU - 16-inch Liquid Retina XDR Display - 140W USB-C Power Adapter,"6,599.00"
+"HP EliteBook x360 1040 G11 14"" FHD AG 400nits Business Laptop Touchscreen",Intel Core U7-165H - vPro - 16GB RAM - 512GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - with Wacom Pen - 3Y NBD Onsite Warranty,"3,011.48"
+"Dell Latitude 3000 Series 3450 Business Laptop 14"" FHD AG",Intel Core i7-1355U - 16GB RAM - 512GB SSD - Win 11 Pro - WiFi+BT - 1Y Basic Onsite Warranty,"1,987.90"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Space Grey",16GB Unified Memory - 256GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,255.00"
+"HP ZBook Power G11 LTE Mobile Workstation 16"" QHD 400nits",AMD Ryzen 9 Pro 8945HS - 32GB RAM - 1TB SSD - RTX 3000 Ada - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - IR Webcam - 3Y NBD Onsite Warranty,"5,062.30"
+"HP ZBook Power G11 Mobile Workstation 16"" FHD Touch",AMD Ryzen 7 Pro 8845HS - 32GB RAM - 1TB SSD - NVIDIA RTX 2000 Ada - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - IR Webcam - 3Y NBD Onsite Warranty,"3,790.39"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Silver",16GB Unified Memory - 256GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,255.00"
+"MSI Commercial 14 H A13MG vPro-027NZ Business Laptop 14"" FHD+",Intel Core i5-13500H - 16GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - 3Y Warranty - White Backlight Keyboard - FPR,"2,098.99"
+"Dell Latitude 5000 Series 5450 Business Laptop 14"" FHD AG",Intel Core Ultra 5 125U - 16GB RAM - 256GB SSD - Win 11 Pro - WiFi+BT - 1Y Basic Onsite Warranty,"1,921.16"
+"Dell Latitude 5000 Series 5440 Business Laptop 14"" FHD",Intel Core i7-1365U - 16GB RAM - 1TB SSD - AX WiFi 6E + BT5.2 - FHD Camera - Backlit keyboard - Win 11 Pro - 1Y Onsite Warranty,"1,943.50"
+"HP Elitebook 640 G11 Business Laptop 14"" WUXGA",Intel Core Ultra 5 125U - 32GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - 3Y NBD Onsite Warranty,"2,030.90"
+"Lenovo ThinkBook 14 G4 2-in-1 Business Laptop 14"" WUXGA Touch",Intel Core Ultra 7 155U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty - AX WiFi 6E + BT5.3 - IR Cam - Thunderbolt4 (with PD & DP1.4) - HDMI2.1 - MicroSD Reader,"1,980.96"
+"HP EliteBook x360 830 G11 LTE Business Flip Laptop 13.3"" FHD BV 400nits Touch",Intel Core U5-135U - vPro - 16GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - Wacom Pen - FPR - IR Cam - 3Y NBD Onsite Warranty,"2,535.44"
+"HP ProBook 445 G11 Business Laptop 14"" WUXGA",AMD Ryzen 5 7535U - 16GB RAM - 256GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,910.15"
+"HP Elite Dragonfly G4 13.5"" WUXGA+ Touch 400n Business Laptop",Intel Core i5-1335U - 16GB RAM - 256GB NVMe SSD - AX WiFi 6E + BT5.3 - Win 11 Pro - 3Y NBD Onsite Warranty,"2,632.00"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Space Grey",8GB Unified Memory - 256GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,249.00"
+"Microsoft Surface Laptop 6 13.5"" for Business - Black",Intel Core Ultra 7 165H - 16GB RAM - 256GB SSD,Price not found
+"HP ProBook 465 G11 Business Laptop 16"" WUXGA Touch",AMD Ryzen 7 7735U - 16GB RAM - 256GB SSD - Win 11 Pro - 1Y Onsite warranty,"2,238.58"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Midnight",8GB Unified Memory - 256GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,249.00"
+"HP ZBook Power G11 LTE Mobile Workstation 16"" QHD 400nits",Intel Core Ultra 9 185H vPro - 64GB RAM - 1TB SSD - RTX A3000 Ada - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - IR Webcam - 3Y NBD Onsite Warranty,"5,831.04"
+"Dell Latitude 5000 5550 Business Laptop 15.6"" FHD",- Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,958.00"
+"Lenovo ThinkPad T14 G5 14"" WUXGA Laptop",Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Win11 Pro - 3Y Onsite Warranty,"2,524.00"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Space Grey",8GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,499.00"
+"Apple Macbook Air 15"" Laptop with M2 Chip - Space Grey",24GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3-inch Liquid Retina Display with TrueTone and 35W Dual USB-C Charger,"2,799.00"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Starlight",8GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,300.00"
+"HP EliteBook 630 G11 Business Laptop 13.3"" WUXGA",Intel Core Ultra 5 125U - 32GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - 3Y NBD Onsite Warranty,"2,334.50"
+"Microsoft Surface Laptop 6 13.5"" for Business - Platinum",Intel Core Ultra 7 165H - 16GB RAM - 256GB SSD,Price not found
+"Lenovo ThinkPad X1 Carbon G12 LTE Business Ultrabook 14"" WUXGA","Intel Core Ultra 7 155U - 32GB RAM - 1TB SSD - Win 11 Pro - 3yr Premier Support - AX WiFi6E + BT5.3 - IR Cam - Thunderbolt4 (with USB4, PD & DP2.1) - HDMI2.1","4,509.35"
+"HP ProBook 465 G11 Business Laptop 16"" WUXGA",AMD Ryzen 5 7535U - 16GB RAM - 256GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,826.50"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Midnight",24GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"3,045.00"
+"HP ZBook Studio G11 Mobile Workstation 16"" WUXGA",Intel Core Ultra 7 155H - 32GB RAM - 1TB SSD - NVIDIA RTX 3000 Ada - Win 11 Pro - 3Y NBD Onsite Warranty - AX WiFi 7 + BT5.4,"5,961.60"
+"Dell Latitude 5000 Series 5440 Business Laptop 14"" FHD",Intel Core i5-1345U - 16GB RAM - 256GB SSD - Win 11 Pro - AX WiFi 6E + BT5.2 - Webcam - Backlit keyboard - 1Y Onsite Warranty,"1,661.92"
+"HP EliteBook x360 1040 G11 LTE Business Laptop 14"" FHD BV 1000nits Touch",Intel Core U7-165H - vPro - 16GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - IR Cam - with Wacom Pen - 3Y NBD Onsite Warranty,"4,873.70"
+"Dell Latitude 5000 Series 5550 Business Laptop 15.6"" FHD AG",Intel Core Ultra 7 155U - 16GB RAM - 512GB SSD - Win 11 Pro - WiFi+BT - 3Y ProSupport,"2,464.85"
+"HP EliteBook 830 G11 LTE Business Laptop 13.3"" FHD AG 400nits",Intel Core Ultra 7-155U - 16GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - IR Cam - 3Y NBD Onsite Warranty,"3,474.00"
+"HP ProBook 440 G11 Business Laptop 14"" WUXGA Touch",Intel Core Ultra 5-125U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty,"2,171.00"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Snapdragon X Elite (12 Core) - 16GB RAM - 256GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+"HP EliteBook 840 G11 14"" FHD AG 300nits Business Laptop Touchscreen",Intel Core U5-125U - 16GB RAM - 256GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"2,775.50"
+"HP EliteBook x360 1040 G11 14"" FHD AG 400nits Touch Business Laptop",Intel Core U7-155H - 16GB RAM - 512GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - with Wacom Pen - 3Y NBD Onsite Warranty,"4,150.35"
+"HP ProBook 440 G11 Business Laptop 14"" WUXGA",Intel Core Ultra 7 155U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty,"2,413.34"
+"Lenovo ThinkBook 16 G7 16"" WUXGA Laptop",Intel Core Ultra 5 125U - 16GB RAM - 256GB SSD - Windows 11 Pro - 1Y Onsite Warranty,"1,536.00"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Silver",8GB Unified Memory - 256GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,249.00"
+"HP EliteBook 860 G11 16"" FHD AG 300nits Touch Business Laptop",Intel Core U7-155U - 16GB RAM - 256GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"3,170.00"
+"Lenovo ThinkPad L16 G1 16"" WUXGA Laptop",Intel Core Ultra 5 125U - 16GB RAM - 256GB SSD - Win 11 Pro - 1Y Oniste Warranty,"1,966.01"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Midnight",8GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,586.00"
+"Apple Macbook Air 15"" Laptop with M2 Chip - CTO - - Space Grey",16GB Unified Memory - 1TB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,999.00"
+"Dynabook X40-K 14"" FHD Laptop",Intel Core i5-1340P - 16GB RAM - 256GB SSD - Thunderbolt - Win 11 Pro - 3Y Warranty,"2,125.00"
+"ASUS ExpertBook B5 B5404CVA-Q50402X 14"" WUXGA Intel Core i5-1335U - 16GB RAM - 512GB SSD - Win 11 Pro",- 3Y Onsite Warranty,"2,084.00"
+"Dynabook X30W-K 13.3"" FHD Touch",Intel Core i5-1340P - 16GB RAM - 256GB SSD - Win 11 Pro - 3Y Onsite Warranty,"2,775.00"
+"Dynabook X40-K 14"" FHD Laptop",Intel Core i7-1360P - 16GB RAM - 256GB SSD - Thunderbolt - Win 11 Pro - 3Y Warranty,"2,426.01"
+"HP EliteBook 630 G11 13.3"" WUXGA Business Laptop Touchscreen",Intel Core Ultra 5 125U - 16GB RAM - 512GB NVMe SSD - AX WiFi 6E + BT5.3 - Win 11 Pro - 3Y NBD Onsite Warranty,"2,713.92"
+"Dynabook X30W-K 13.3"" FHD Touch",Intel Core i7-1360P - 16GB RAM - 256GB SSD - Win 11 Pro - 3Y Warranty,"3,066.67"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Snapdragon X Plus (10 Core) - 16GB RAM - 256GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+"Lenovo ThinkPad T14s G5 14"" WUXGA Laptop",Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Win11 Pro - 3Y Onsite Warranty,"2,488.00"
+"Apple MacBook Air 13"" Laptop with M3 Chip -CTO - Space Grey",24GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine 35W Dual USB-C Power Adapter,"2,699.00"
+"Dell Latitude 7350 13.3"" QHD+ Laptop Touchscreen",Intel Core Ultra 7 155U - 16GB RAM - 256GB SSD - Win 11 Pro - 3Y Onsite Warranty,"2,907.00"
+"HP EliteBook 840 G11 14"" FHD AG 300nits Business Laptop",Intel Core U5-135U - vPro - 16GB RAM - 512GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"2,942.67"
+"Lenovo ThinkPad X1 Carbon G11 14"" WUXGA Ultrabook",Intel Core i7-1355U - 16GB RAM - 512GB SSD - Win 10 Pro (Win 11 Pro Lic) - 3Y Onsite Warranty - AX WiFi6E + BT5.3 - IR Cam - Thunderbolt4 (with PDP & DP1.4a) - HDMI2.1 - Backlit Keyboard,"3,329.00"
+"ASUS ExpertBook B1 B1402CVA-EB0134X 14"" FHD Intel Core i5-1335U - 16GB RAM - 512GB SSD - Win 11 Pro",- AX WiFi 6E + BT5.3 - Webcam - USB-C - HDMI1.4 - 1Y Warranty,"1,579.49"
+"Dell Latitude 5000 Series 5340 Flip 2in1 Business Laptop 13.3"" FHD Touch",Intel Core i5-1335U - 16GB RAM - 1TB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,670.88"
+"Apple Macbook Air 15"" Laptop with M2 Chip - Starlight",24GB Unified Memory - 1TB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3-Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"3,349.00"
+"HP EliteBook 830 G11 13.3"" FHD AG 300nits Touch Business Laptop",Intel Core U5-125U - 16GB RAM - 512GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"2,725.99"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Starlight",24GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"3,045.00"
+Microsoft Surface Laptop (7th Edition) for Business Copilot+ PC - Platinum,"Snapdragon X Elite (12 Core) - 16GB RAM - 512GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+"Lenovo ThinkPad T16 G3 16"" WUXGA Touch 5G/LTE",- Intel Core Ultra 7 155U - 32GB RAM - 1TB SSD - Win 11 Pro - 3Y Onsite Warranty,"3,808.58"
+"HP EliteBook 860 G11 16"" FHD AG 300nits Business Laptop",Intel Core U7-155U - 16GB RAM - 256GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"3,148.38"
+"Dell Latitude 5000 Series 5450 Business Laptop 14"" FHD AG",Intel Core Ultra 5 125U - 16GB RAM - 256GB SSD - Win 11 Pro - WiFi+BT - 3Y ProSupport,"2,095.38"
+"Dynabook Portege X40L-K 14"" WUXGA Laptop",Intel Core i7-1360P - 16GB RAM - 256GB SSD - AX WiFi 6E + BT5.2 - IR Cam - Thunderbolt 4 (PD & DP) - HDMI - Backlit Keyboard - Win 11 Pro - 3Y Warranty,"2,170.00"
+"Microsoft Surface Laptop 6 13.5"" for Business - Black",Intel Core Ultra 5 135H - 16GB RAM - 256GB SSD,Price not found
+"Dell Precision 3581 Mobile Workstation 15.6"" FHD",Intel Ultra 9 185H - 32GB RAM - 1TB SSD - NVIDIA RTX 2000 - Win 11 Pro - 3Y Onsite Warranty,"4,675.43"
+"Apple Macbook Air 15"" Laptop with M2 Chip - Silver",24GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,799.00"
+"HP ZBook Studio G11 Mobile Workstation 16"" WUXGA",Intel Core Ultra 7 155H - 32GB RAM - 1TB SSD - NVIDIA RTX 2000 Ada - Win 11 Pro - 3Y NBD Onsite Warranty - AX WiFi 7 + BT5.4,"5,314.24"
+"Lenovo ThinkPad T16 G2 Business Laptop 16"" WUXGA",Intel Core i5-1335U - 16GB RAM - 256GB SSD - Win 11 Pro - 3Y Onsite Warranty,"2,054.00"
+"Lenovo ThinkPad T14 G5 Business Laptop 14"" WUXGA",AMD Ryzen 7 PRO 8840U - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y Onsite Warranty,"2,858.00"
+"Lenovo ThinkPad X1 Carbon Gen 11 14"" WUXGA",Intel Core i5-1335U - 16GB - 512GB SSD - Win 10 Pro (with Win 11 Pro Lic) - 3Y Onsite Warranty - IR Cam - Wi-Fi 6E + BT5.3,"3,091.00"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Graphite,"Snapdragon X Elite (12 Core) - 32GB RAM - 1TB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+"Dell Latitude 3000 Series 3450 Business Laptop 14"" FHD AG",Intel Core i5-1335U - 8GB RAM - 512GB SSD - Win 11 Pro - WiFi+BT - 1Y Basic Onsite Warranty,"1,353.79"
+"HP EliteBook 665 G11 Business Laptop 16"" WUXGA",AMD Ryzen 5 7535U - 32GB RAM - 1TB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - 3Y NBD Onsite Warranty,"1,794.00"
+"HP EliteBook 830 G11 13.3"" FHD AG 400nits Business Laptop",Intel Core U5-125U - 16GB RAM - 512GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"4,064.65"
+"Dell Latitude 3000 Series 3550 Business Laptop 15.6"" FHD",- Intel Core i5-1335U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,468.00"
+"Lenovo ThinkPad T14s G5 14"" WUXGA Touch Laptop",Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Win11 Pro - 3Y Onsite Warranty,"2,620.00"
+"Apple Macbook Air 15"" Laptop with M2 Chip - CTO - - Silver",16GB Unified Memory - 1TB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,999.00"
+"HP ZBook Fury G11 Mobile Workstation 16"" FHD 400nits Touch",Intel Core i9-14900HX - 32GB RAM - 1TB SSD - RTX 3500 Ada - Win 11 Pro - AX WiFi 7+ BT5.4 - FPR - IR Webcam - 3Y NBD Onsite Warranty,"6,603.86"
+"HP ProBook 465 G11 Business Laptop 16"" WUXGA Touch",AMD Ryzen 5 7535U - 16GB RAM - 256GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,947.00"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Space Grey",24GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"3,045.00"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - ( Platinum ),"Snapdragon X Elite (12 Core) - 16GB RAM - 512GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+"HP EliteBook 860 G11 16"" FHD AG 300nits Business Laptop Touch",Intel Core U5-135U - vPro - 16GB RAM - 512GB SSD - AX WiFi 6E + BT5.3 - FPR - IR Cam - Win 11 Pro - 3Y NBD Onsite Warranty,"3,129.26"
+"HP ZBook Fury G11 Mobile Workstation 16"" FHD 400nits Touch",Intel Core i7-14700HX - 32GB RAM - 1TB SSD - RTX 2000 Ada - Win 11 Pro - AX WiFi 7 + BT5.4 - FPR - IR Webcam - 3Y NBD Onsite Warranty,"5,048.50"
+"HP EliteBook 665 G11 Business Laptop 16"" WUXGA",AMD Ryzen 5 7535U - 16GB RAM - 500GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - 3Y NBD Onsite Warranty,"1,598.50"
+"Lenovo ThinkPad X1 Yoga G8 14"" WUXGA Touch Flip Laptop",Intel Core i7-1355U - 16GB RAM - 512GB SSD - AX Wi-Fi 6E + BT5.1 - Thunderbolt 4 - HDMI 2.1 - Lenovo Integrated Pen - Backlit Keyboard - Win 10 Pro - 3Y Onsite Warranty,"3,634.00"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Graphite,"Snapdragon X Plus (10 Core) - 16GB RAM - 512GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+"Microsoft Surface Laptop 6 13.5"" for Business - Black",Intel Core Ultra 7 165H - 64GB RAM - 1TB SSD,Price not found
+"Lenovo ThinkPad T14 G5 LTE 14"" WUXGA Touch",Intel Core Ultra 7 155U - 32GB RAM - 1TB SSD - Win 11 Pro - 3Y Onsite Warranty,"3,552.63"
+"Dell Latitude 5000 Series 5450 Business Laptop 14"" FHD AG",Intel Core Ultra 7 165U - vPro - 16GB RAM - 512GB SSD - Win 11 Pro - WiFi+BT - 3Y ProSupport,"2,624.86"
+"Lenovo ThinkPad T14 G5 14"" WUXGA Touch Laptop",Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Win11 Pro - 3Y Onsite Warranty,"2,885.00"
+"Lenovo ThinkPad X1 Yoga G8 14"" WUXGA Touch",Intel Core i5-1335U- 16GB RAM - 512GB SSD - AX Wi-Fi 6E + BT5.3 - Thunderbolt 4 - HDMI 2.1 - Backlit Keyboard - Win 10 Pro(with Win 11 Pro Lic) - 3Y Onsite Warranty,"3,518.00"
+Microsoft Surface Laptop (7th Edition) for Business Copilot+ PC - Platinum,"Snapdragon X Elite (12 Core) - 16GB RAM - 1TB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+"Lenovo ThinkPad P16v G2 Mobile Workstation 16"" WUXGA",Intel Core Ultra 9-185H vPro - 32GB RAM - 1TB SSD - NVIDIA RTX 3000 Ada - Win 11 Pro - 3Y Onsite Warranty,"5,987.54"
+"Lenovo ThinkPad T14 G5 14"" WUXGA Touch 4G/LTE",Intel Core Ultra 7 155U - 16GB RAM - 512GB SSD - Win11 Pro - 3Y Onsite Warranty,"3,149.00"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Silver",8GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"2,499.00"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Snapdragon X Elite (12 Core) - 16GB RAM - 1TB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+"Dynabook Portege X40-M 14"" WUXGA Touch Laptop",Intel Core U7-155H - 32GB RAM - 1TB SSD - Win 11 Pro - 3Y Warranty,"2,782.00"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 7 (Series 2) - 32GB RAM - 256GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+"Lenovo ThinkPad T16 G2 Business Laptop 16"" WUXGA",AMD Ryzen 7 PRO 7840U - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y Onsite Warranty,"2,656.50"
+"Dell Latitude 5000 Series 5550 Business Laptop 15.6"" FHD AG",Intel Core Ultra 5 125U - 16GB RAM - 256GB SSD - Win 11 Pro - WiFi+BT - 3Y ProSupport,"2,096.61"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - ( Graphite ),"Snapdragon X Elite (12 Core) - 16GB RAM - 512GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+"Apple Macbook Air 15"" Laptop with M2 Chip - Silver",24GB Unified Memory - 1TB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"3,349.00"
+"Apple MacBook Air 15"" Laptop with M3 Chip - Silver",24GB Unified Memory - 512GB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"3,045.00"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Graphite,"Snapdragon X Elite (12 Core) - 16GB RAM -1TB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+"Lenovo ThinkPad T14 G5 14"" WUXGA - Intel Core Ultra U7-155U - 16GB RAM - 512GB SSD",- Win 11 Pro - 3Y Onsite Warranty,"2,844.00"
+"Lenovo ThinkPad Z13 Gen 1 13.3"" WUXGA Business Laptop",AMD Ryzen 5 PRO 6650U - 16GB RAM - 256GB SSD - AX WiFi 6E + BT5.2 - IR Cam - USB4 (PD & DP1.4) - HDMI - Backlit Keyboard - RJ45 - FPR - Win 10 Pro (Win 11 Pro Lic) - 3Y Onsite Warranty,"2,704.00"
+"Lenovo ThinkPad T14s G6 Copilot+ PC 14"" WUXGA Touch 12 Cores Qualcomm Snapdragon X Elite",- 32GB RAM - 512GB SSD - Win11 Pro - 3Y Pro Support Warranty,"3,557.38"
+"Microsoft Surface Laptop 6 13.5"" for Business - Platinum",Intel Core Ultra 7 165H - 64GB RAM - 1TB SSD,Price not found
+"Lenovo ThinkPad T14s AMD G6 14"" WUXGA Touch 5G LTE",AMD Ryzen AI 7 PRO 360 - 32GB RAM - 512GB SSD - Win11 Pro - 3Y Onsite Warranty,"3,939.80"
+"Dynabook Tecra A40-M Business Laptop 14"" WUXGA",Intel Core Ultra 5-125H - 16GB RAM - 256GB SSD - Win 11 Pro - 3Y Warranty,"1,793.00"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Graphite,"Snapdragon X Elite (12 Core) - 16GB RAM - 512GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+"Lenovo ThinkPad T14s AMD G6 14"" WUXGA Touch Laptop",AMD Ryzen AI 7 PRO 360 - 32GB RAM - 512GB SSD - Win11 Pro - 3Y Onsite Warranty,"3,241.52"
+"Apple Macbook Air 15"" Laptop with M2 Chip - Space Grey",24GB Unified Memory - 1TB SSD - 8-Core CPU - 10-Core GPU - 16-Core Neural Engine - 15.3 Inch Liquid Retina Display with TrueTone - 35W Dual USB-C Charger,"3,349.00"
+"Lenovo ThinkPad T16 G3 16"" WUXGA",- Intel Core Ultra 7 155U - 16GB RAM - 512GB SSD - Windows 11 Pro - 3Y Onsite Warranty,"2,899.00"
+"Lenovo ThinkPad X13 G5 13.3"" WUXGA Laptop",Intel Ultra 5 125U - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y Onsite Warranty,"2,473.11"
+"Lenovo ThinkPad X1 Yoga G9 14"" WUXGA Touch",Intel Core Ultra 7-155U - 16GB RAM - 512GB SSD - Win 11 Pro - 3yr Onsite Warranty,"3,587.00"
+"Microsoft Surface Laptop 6 13.5"" for Business - Platinum",Intel Core Ultra 7 165H - 16GB RAM - 512GB SSD,Price not found
+"Lenovo ThinkPad T14 G5 14"" WUXGA Touch",Intel Core Ultra 7 155U - 16GB RAM - 512GB SSD - Win11 Pro - 3Y Onsite Warranty,"3,042.00"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Intel Core Ultra 7 (Series 2) - 16GB RAM - 256GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Graphite,"Snapdragon X Elite (12 Core) - 16GB RAM - 1TB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+Lenovo ThinkPad T16 G2 16'' WUXGA Touch Laptop,AMD Ryzen 7 PRO 7840U - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y Onsite Warranty,"3,002.62"
+"Lenovo ThinkBook 16 G6 16"" WUXGA Copilot+ PC",Snapdragon X Plus X1P-42-100 - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,724.87"
+"Lenovo ThinkPad T14 G5 14"" WUXGA Touch",AMD Ryzen 5 PRO 8540U - 16GB RAM - 512GB SSD - Win11 Pro - 3Y Onsite Warranty,"2,973.00"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 5 (Series 2)- 16GB RAM - 256GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+"Lenovo ThinkPad L16 G1 Business Laptop 16"" WUXGA",- Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Oniste Warranty,"2,000.00"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 5 (Series 2) - 16GB RAM - 512GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Intel Core Ultra 7 (Series 2) - 16GB RAM - 512GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 7 (Series 2) - 32GB RAM - 512GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 7 (Series 2) - 16GB RAM - 512GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 7 (Series 2) - 16GB RAM - 256GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Intel Core Ultra 7 (Series 2) - 32GB RAM - 256GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+"Microsoft Surface Laptop 6 15"" for Business - Black",Intel Core Ultra 5 135H - 16GB RAM - 256GB SSD,Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Intel Core Ultra 5 (Series 2) - 16GB RAM - 256GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+"Microsoft Surface Laptop 6 13.5"" for Business - Black",Intel Core Ultra 7 165H - 16GB RAM - 512GB SSD,Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Intel Core Ultra 5 (Series 2) - 16GB RAM - 512GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Intel Core Ultra 7 (Series 2) - 32GB RAM - 512GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+"Lenovo ThinkPad X9-14 G1 14"" WUXGA OLED",Intel Core Ultra 7 258V - 32GB RAM - 512GB SSD - Win 11 Pro - BE WiFi7 + BT5.4 - IR Cam - Thunderbolt4 (with PD & PD2.1) - HDMI2.1 - 3yr Premier Support,"3,371.00"
+"Lenovo ThinkPad T14 G5 14"" WUXGA Touch",AMD Ryzen 7 PRO 8840U - 16GB RAM - 512GB SSD - Win11 Pro - 3Y Onsite Warranty,"3,287.00"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Intel Core Ultra 5 (Series 2) - 32GB RAM - 512GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+"Lenovo ThinkPad P16v G2 Mobile Workstation 16"" WUXGA",Intel Core Ultra 7-155H - 32GB RAM - 1TB SSD - NVIDIA RTX 2000 Ada - Win 11 Pro - 3Y Onsite Warranty,"4,451.59"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 7 (Series 2) - 32GB RAM - 512GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 5 (Series 2) - 32GB RAM - 512GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 7 (Series 2) - 16GB RAM - 512GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 5 (Series 2) - 16GB RAM - 512GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+"Microsoft Surface Laptop 6 15"" for Business - Platinum",Intel Core Ultra 7 165H - 16GB RAM - 512GB SSD,Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 7 (Series 2) - 16GB RAM - 256GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Intel Core Ultra 5 (Series 2) - 32GB RAM - 256GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Intel Core Ultra 5 (Series 2) - 32GB RAM - 256GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 5 (Series 2) - 32GB RAM - 256GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Intel Core Ultra 5 (Series 2) - 16GB RAM - 256GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 5 (Series 2) - 32GB RAM - 256GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Intel Core Ultra 7 (Series 2) - 16GB RAM - 512GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 5 (Series 2) - 16GB RAM - 256GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+"Microsoft Surface Laptop 6 13.5"" for Business - Platinum",Intel Core Ultra 5 135H - 16GB RAM - 512GB SSD,Price not found
+"Lenovo ThinkBook 14 G8 14"" WUXGA",Intel Core Ultra 5 225U - 32GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - IR Cam - Thunderbolt4 (with PD & DP2.1) - HDMI2.1 - 1yr Onsite warranty,"1,524.00"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 5 (Series 2) - 32GB RAM - 512GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 7 (Series 2) - 32GB RAM - 256GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+"Dynabook Portege X40L-M 14"" WUXGA Laptop",Intel Core U5-125H - 16GB RAM - 256GB SSD - Win 11 Pro - 3Y Warranty,"2,513.00"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Black,"Intel Core Ultra 7 (Series 2) - 16GB RAM - 256GB SSD - 15"" HDR Touch Display with Smart Card Reader - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Intel Core Ultra 7 (Series 2) - 16GB RAM - 256GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+"Dynabook Tecra A40-M Business Laptop 14"" WUXGA",Intel Core Ultra 5-125H - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y Warranty,"1,973.00"
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Intel Core Ultra 5 (Series 2) - 32GB RAM - 512GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+"Microsoft Surface Laptop 6 13.5"" for Business - Black",Intel Core Ultra 7 165H - 32GB RAM - 512GB SSD,Price not found
+"Microsoft Surface Laptop 6 15"" for Business - Black",Intel Core Ultra 7 165H - 16GB RAM - 512GB SSD,Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Intel Core Ultra 5 (Series 2) - 16GB RAM - 512GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found
+"Microsoft Surface Laptop 6 15"" for Business - Black",Intel Core Ultra 5 135H - 16GB RAM - 512GB SSD,Price not found
+"Microsoft Surface Laptop 6 15"" for Business - Platinum",Intel Core Ultra 5 135H - 16GB RAM - 256GB SSD,Price not found
+"Microsoft Surface Laptop 6 13.5"" for Business - Platinum",Intel Core Ultra 7 165H - 32GB RAM - 256GB SSD,Price not found
+"Lenovo ThinkPad T14 G5 14"" WUXGA",Intel Core Ultra 5 125U - 32GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - IR Cam - Thunderbolt4 (with PD & DP2.1) - HDMI2.1 - RJ45 - 3yr Premier warranty,"2,688.00"
+"Microsoft Surface Laptop 6 15"" for Business - Black",Intel Core Ultra 7 165H - 16GB RAM - 256GB SSD,Price not found
+"Microsoft Surface Laptop 6 13.5"" for Business - Platinum",Intel Core Ultra 7 165H - 32GB RAM - 512GB SSD,Price not found
+"Microsoft Surface Laptop 6 13.5"" for Business - Black",Intel Core Ultra 7 165H - 32GB RAM - 256GB SSD,Price not found
+"Microsoft Surface Laptop 6 13.5"" for Business - Platinum",Intel Core Ultra 5 135H - 16GB RAM - 256GB SSD,Price not found
+"Lenovo ThinkPad T16 G2 Business Laptop 16"" WUXGA",AMD Ryzen 5 PRO 7545U - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y Onsite Warranty,"2,312.74"
+"Microsoft Surface Laptop 6 15"" for Business - Black",Intel Core Ultra 7 165H - 32GB RAM - 512GB SSD,Price not found
+"Microsoft Surface Laptop 6 15"" for Business - Platinum",Intel Core Ultra 5 135H - 16GB RAM - 512GB SSD,Price not found
+"Microsoft Surface Laptop 6 13.5"" for Business - Black",Intel Core Ultra 5 135H - 32GB RAM - 512GB SSD,Price not found
+"Microsoft Surface Laptop 6 15"" for Business - Platinum",Intel Core Ultra 7 165H - 32GB RAM - 512GB SSD,Price not found
+"Microsoft Surface Laptop 6 15"" for Business - Platinum",Intel Core Ultra 7 165H - 16GB RAM - 256GB SSD,Price not found
+"Dynabook Portege X40L-M 14"" WUXGA Laptop",Intel Core U5-125H - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y Warranty,"2,582.00"
+"Lenovo ThinkPad T14s G5 14"" WUXGA Touch",Intel Core Ultra 7 155U - 16GB RAM - 512GB SSD - Win11 Pro - 3Y Onsite Warranty,"3,395.00"
+"Lenovo ThinkPad L16 G1 Business Laptop 16"" WUXGA",AMD Ryzen 7 7735U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Oniste Warranty,"1,994.00"
+"Lenovo ThinkPad T14s G5 14"" WUXGA Touch 4G/LTE",Intel Core Ultra 7 155U - 16GB RAM - 512GB SSD - Win11 Pro - 3Y Onsite Warranty,"3,822.00"
+"Dell Latitude 5000 Series 5550 Business Laptop 15.6"" FHD AG",Intel Core Ultra 5 125U - 16GB RAM - 256GB SSD - Win 11 Pro - WiFi+ BT - 1Y Basic Onsite Warranty,"1,944.78"
+"Lenovo ThinkBook 16 G7 16"" WUXGA",Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Oniste Warranty,"1,789.00"
+"Lenovo ThinkPad P14s G4 Mobile Workstation 14"" WUXGA",Intel Core Ultra 7 155H - 32GB RAM - 512GB SSD - NVIDIA RTX A500 Ada - Win 11 Pro - 3Y Premier Support,"3,304.08"
+Lenovo ThinkPad T16 G2 16'' WUXGA Touch Laptop,AMD Ryzen 5 PRO 7545U - 16GB RAM - 512GB SSD - Win 11 Pro - 3Y Onsite Warranty,"2,651.30"
+"Lenovo ThinkPad L16 G1 Business Laptop 16"" WUXGA",- Intel Core Ultra 7 155U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Oniste Warranty,"2,403.01"
+"Lenovo ThinkPad L14 G5 14"" WUXGA",Intel Core Ultra 7 155U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty,"2,580.00"
+"Lenovo ThinkPad T14s G6 5G/LTE Copilot+ PC 14"" WUXGA Touch 12 Cores Qualcomm Snapdragon X Elite",- 32GB RAM - 512GB SSD - Win11 Pro - 3Y Pro Support Warranty,"3,664.91"
+"Lenovo ThinkPad T16 G3 16"" WUXGA Touch",- Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Windows 11 Pro - 3Y Onsite Warranty,"3,024.99"
+"Lenovo ThinkPad L14 G5 14"" WUXGA",Intel Core Ultra 5 125U - 16GB RAM - 256GB SSD - Win11 Pro - 1Y Onsite Warranty,"1,958.00"
+"Lenovo ThinkPad T14s G5 14"" WUXGA Touch 5G / LTE",Intel Core Ultra 7 155U - 32GB RAM - 1TB SSD - Win11 Pro - 3Y Onsite Warranty,"3,696.00"
+"Apple Macbook Pro 16"" Laptop with M4 Max Chip - CTO - - Space Black",64GB Unified Memory - 2TB SSD - 16-Core CPU - 40-Core GPU - 16-inch Liquid Retina XDR Display - 140W USB-C Power Adapter,"8,976.39"
+"Apple Macbook Pro 16"" Laptop with M4 Max Chip - CTO - - Space Black",64GB Unified Memory - 4TB SSD - 16-Core CPU - 40-Core GPU - 16-inch Liquid Retina XDR Display - 140W USB-C Power Adapter,"10,176.22"
+"Dell Latitude 5000 Series 5550 Business Laptop 15.6"" FHD",Intel Core Ultra 7 165U - 64GB RAM - 1TB SSD (2x 512G) - Win 11 Pro - 1Y Warranty,"3,013.00"
+"HP ZBook Power G11 Mobile Workstation 16"" FHD Touch",AMD Ryzen 9 Pro 8945HS - 32GB RAM - 1TB SSD - RTX 2000 Ada - Win 11 Pro - AX WiFi 6E + BT5.3 - FPR - IR Webcam - 3Y NBD Onsite Warranty,"4,107.79"
+"HP ZBook Fury G11 Mobile Workstation 16"" FHD 400nits Touch",Intel Core i7-14700HX - 32GB RAM - 1TB SSD - RTX 3500 Ada - Win 11 Pro - AX WiFi 7+ BT5.4 - FPR - IR Webcam - 3Y NBD Onsite Warranty,"6,139.70"
+"HP ProBook 460 G11 Business Laptop 16"" WUXGA",Intel Core Ultra 5 125H - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty,"2,166.14"
+"HP EliteBook x360 830 G11 LTE Business Laptop 13.3"" FHD AG 1000nits SV Touch",Intel Core Ultra 7 165U - vPro - 16GB RAM - 512GB SSD - Win 11 Pro - AX WiFi 6E + BT5.3 - Wacom Pen - FPR - IR Cam - 3Y NBD Onsite Warranty,"3,209.12"
+"Lenovo ThinkPad X1 Yoga G9 LTE 14"" WUXGA Touch",Intel Core Ultra 7-155U - 32GB RAM - 1TB SSD - Win 11 Pro - 3yr Onsite Warranty,"4,459.00"
+"Lenovo ThinkBook 14 YOGA G4 Business Laptop 14"" WUXGA Touch",- Intel Core Ultra 5 125U - 16GB RAM - 512GB SSD - Win 11 Pro - 1Y Onsite Warranty,"1,713.01"
+"Lenovo ThinkPad X9-15 G1 15.3"" 2.8K OLED Touch",Intel Core Ultra 7 258V - 32GB RAM - 512GB SSD - Win 11 Pro - BE WiFi7 + BT5.4 - IR Cam - Thunderbolt4 (with PD & PD2.1) - HDMI2.1 - 3yr Premier Support,"3,578.00"
+"MSI Commercial 14 H A13MG vPro-026NZ Business Laptop 14"" FHD+",Intel Core i7-13700H - 32GB RAM - 1TB SSD - Win 11 Pro - AX Wi-Fi 6E + BT5.3 - 3Y Warranty - White Backlight Keyboard - FPR,"2,399.00"
+Microsoft Surface Laptop Studio 2 (for Business),Intel Core i7 - 32GB RAM - 1TB SSD - NVIDIA GeForce RTX 4050 dGPU - Win 11 Pro - Sign in to your commercial account or apply online now to view the price and order this product,Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Snapdragon X Plus (10 Core) - 16GB RAM - 512GB SSD - 13.8"" HDR Touch Display - Win 11 Pro",Price not found
+Microsoft Surface Laptop (7th Edition) for Business - Copilot+ PC - Platinum,"Intel Core Ultra 7 (Series 2) - 32GB RAM - 256GB SSD - 15"" HDR Touch Display - Win 11 Pro",Price not found

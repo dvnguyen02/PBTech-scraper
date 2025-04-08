@@ -4,71 +4,105 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import NoSuchElementException
 import pandas as pd
 import time
 
-# Set up the ChromeDriver service using webdriver_manager
-service = Service(executable_path=ChromeDriverManager().install())
-driver = webdriver.Chrome(service=service)
-
-print("Im on the website")
-
-# Navigate to the PB Tech business laptops page
-driver.get("https://www.pbtech.co.nz/category/computers/laptops/business-laptops")
-
-# Wait for the page to load
-time.sleep(3)
+# Setup Chrome driver
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+base_url = "https://www.pbtech.co.nz/category/computers/laptops/business-laptops"
 
 # Lists to store scraped data
-product_names = []
-product_prices = []
+product_names, product_prices, product_specs = [], [], []
 
-try:
+# Function to scrape products from a single page
+def scrape_page(url):
+    driver.get(url)
+    print(f"Scraping: {url}")
+    time.sleep(2)  # Brief wait for page load
+    
     # Find all product containers
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_all_elements_located((By.CSS_SELECTOR, "#mainCatList .row.w-100.mx-0.ms-xl-2.me-xl-1 > div"))
+    )
     product_containers = driver.find_elements(By.CSS_SELECTOR, "#mainCatList .row.w-100.mx-0.ms-xl-2.me-xl-1 > div")
     print(f"Found {len(product_containers)} products")
     
     for container in product_containers:
         try:
-            # Get product name using the provided selector
-            name_element = container.find_element(By.CSS_SELECTOR, 
-                "div.col.col-md-12.col-xl.order-2.order-md-1.order-xl-2.expanded-details.product-details-info > div.overflow-hidden.card-item-header.content-box > a")
-            product_name = name_element.text.strip()
+            # Extract product details
+            name = container.find_element(By.CSS_SELECTOR, ".card-item-header a h2").text.strip()
+            spec = container.find_element(By.CSS_SELECTOR, ".card-item-header a h3").text.strip()
             
-            # Get price using the provided selector
-            price_dollar_element = container.find_element(By.CSS_SELECTOR, 
-                "div.col.col-md-12.col-xl.order-2.order-md-1.order-xl-2.expanded-details.product-details-info > div.d-md-none.col-12.col-xl-3.col-override.py-2.px-3.border-box.price-block-placeholder.d-flex.flex-column.justify-content-center.justify-content-md-end.order-3 > div.priceClass.position-relative > div.item-price-block.text-end.d-flex.flex-column.align-items-end.mb-0 > div.item-price-amount.overflow-hidden.fw-bold.d-flex.justify-content-end.priceClass-pb > div.ginc > div > span.price-dollar.hide-plain")
+            # JavaScript to extract price
+            script = """
+            const container = arguments[0];
+            const priceContainer = container.querySelector('.item-price-amount');
+            if (!priceContainer) return 'Price not found';
             
-            price_cent_element = container.find_element(By.CSS_SELECTOR,
-                    "div.col.col-md-12.col-xl.order-2.order-md-1.order-xl-2.expanded-details.product-details-info > div.d-md-none.col-12.col-xl-3.col-override.py-2.px-3.border-box.price-block-placeholder.d-flex.flex-column.justify-content-center.justify-content-md-end.order-3 > div.priceClass.position-relative > div.item-price-block.text-end.d-flex.flex-column.align-items-end.mb-0 > div.item-price-amount.overflow-hidden.fw-bold.d-flex.justify-content-end.priceClass-pb > div.ginc > div > span.price-cents.hide-plain")
-            product_dollar_price = price_dollar_element.text.strip()
-            product_cent_price = price_cent_element.text.strip()
-            product_price = f"{product_dollar_price}.{product_cent_price}"
+            const dollarElement = priceContainer.querySelector('.ginc div span.price-dollar');
+            const centsElement = priceContainer.querySelector('.ginc div span.price-cents');
+            
+            if (dollarElement && centsElement) {
+                return (dollarElement.textContent.trim() + centsElement.textContent.trim()).replace('$', '');
+            } else if (dollarElement) {
+                return dollarElement.textContent.trim().replace('$', '');
+            }
+            return 'Price not found';
+            """
+            
+            price = driver.execute_script(script, container)
             
             # Store the data
-            product_names.append(product_name)
-            product_prices.append(product_price)
+            product_names.append(name)
+            product_prices.append(price)
+            product_specs.append(spec)
             
-            print(f"Scraped: {product_name} - {product_price}")
-        
-        except NoSuchElementException:
-            print("Couldn't extract data for a product, skipping...")
-            continue
-    
-    # Create a DataFrame with the scraped data
-    products_df = pd.DataFrame({
-        'Product Name': product_names,
-        'Price': product_prices
-    })
-    
-    # Save to CSV
-    products_df.to_csv('pbtech_products.csv', index=False)
-    print(f"Successfully scraped {len(products_df)} products and saved to 'pbtech_products.csv'")
+            print(f"Scraped: {name} - {price}")
+        except Exception as e:
+            print(f"Error scraping product: {e}")
 
+# Function to get the total number of pages
+def get_total_pages():
+    # Try the specific selector first
+    last_page_selector = "#mainCatList > div.products_list_wrapper.js-products-list-wrapper.expanded_list.none-swiper.w-100 > div > div.row.w-100.mx-0.pt-3 > div > div > div > ul > li:nth-child(5) > a > span"
+    
+    try:
+        last_page_element = WebDriverWait(driver, 5).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, last_page_selector))
+        )
+        last_page_text = last_page_element.text.strip()
+        if last_page_text.isdigit():
+            return int(last_page_text)
+    except:
+        # Fallback: get all page numbers and find max
+        pagination_elements = driver.find_elements(By.CSS_SELECTOR, ".pagination .page-item .page-link")
+        page_numbers = [int(e.text.strip()) for e in pagination_elements if e.text.strip().isdigit()]
+        return max(page_numbers) if page_numbers else 1
+
+# Main execution
+try:
+    # Load first page and get total page count
+    driver.get(base_url)
+    total_pages = get_total_pages()
+    print(f"Found {total_pages} pages to scrape")
+    
+    # Scrape all pages
+    scrape_page(base_url)  # First page
+    
+    for page_num in range(2, total_pages + 1):
+        scrape_page(f"{base_url}?pg={page_num}#sortGroupForm")
+        time.sleep(1)  # Small delay between pages
+    
+    # Save results
+    pd.DataFrame({
+        'Product Name': product_names,
+        'Specification': product_specs,
+        'Price': product_prices
+    }).to_csv('pbtech_products.csv', index=False)
+    
+    print(f"Successfully scraped {len(product_names)} products")
+    
 except Exception as e:
     print(f"An error occurred: {e}")
-
 finally:
-    # Clean up
     driver.quit()
