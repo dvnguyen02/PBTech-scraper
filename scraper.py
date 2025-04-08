@@ -6,6 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 import time
+import datetime
 
 # Setup Chrome driver
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
@@ -98,7 +99,7 @@ try:
         'Product Name': product_names,
         'Specification': product_specs,
         'Price': product_prices
-    }).to_csv('pbtech_products.csv', index=False)
+    }).to_csv(f'pbtech_laptops_on_{datetime.datetime.now().strftime("%Y-%m-%d")}.csv', index=False)
     
     print(f"Successfully scraped {len(product_names)} products")
     
