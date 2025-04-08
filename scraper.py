@@ -9,7 +9,7 @@ import time
 
 # Setup Chrome driver
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-base_url = "https://www.pbtech.co.nz/category/computers/laptops/business-laptops"
+base_url = "https://www.pbtech.co.nz/category/computers/laptops/shop-all"
 
 # Lists to store scraped data
 product_names, product_prices, product_specs = [], [], []
