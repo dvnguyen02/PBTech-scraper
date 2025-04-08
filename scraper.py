@@ -10,7 +10,7 @@ import datetime
 
 # Setup Chrome driver
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-base_url = "https://www.pbtech.co.nz/category/computers/laptops/shop-all"
+
 
 # Lists to store scraped data
 product_names, product_prices, product_specs = [], [], []
@@ -38,7 +38,7 @@ def scrape_page(url):
             script = """
             const container = arguments[0];
             const priceContainer = container.querySelector('.item-price-amount');
-            if (!priceContainer) return 'Price not found';
+            if (!priceContainer) return '';
             
             const dollarElement = priceContainer.querySelector('.ginc div span.price-dollar');
             const centsElement = priceContainer.querySelector('.ginc div span.price-cents');
@@ -81,27 +81,34 @@ def get_total_pages():
         return max(page_numbers) if page_numbers else 1
 
 # Main execution
+cat_list = ["headphones-audio/headphones", "computers/laptops", "phones-gps/smartphones", "components/graphics-cards",
+            "tv-av/tvs", "networking/routers", "cameras/cameras"]
+
 try:
-    # Load first page and get total page count
-    driver.get(base_url)
-    total_pages = get_total_pages()
-    print(f"Found {total_pages} pages to scrape")
-    
-    # Scrape all pages
-    scrape_page(base_url)  # First page
-    
-    for page_num in range(2, total_pages + 1):
-        scrape_page(f"{base_url}?pg={page_num}#sortGroupForm")
-        time.sleep(1)  # Small delay between pages
-    
-    # Save results
-    pd.DataFrame({
-        'Product Name': product_names,
-        'Specification': product_specs,
-        'Price': product_prices
-    }).to_csv(f'pbtech_laptops_on_{datetime.datetime.now().strftime("%Y-%m-%d")}.csv', index=False)
-    
-    print(f"Successfully scraped {len(product_names)} products")
+    for cat in cat_list:        
+        # Scrape all pages
+        base_url = f"https://www.pbtech.co.nz/category/{cat}/shop-all"
+
+        # Load first page and get total page count
+        driver.get(base_url)
+        total_pages = get_total_pages()
+        print(f"Found {total_pages} pages to scrape")
+        
+        
+        scrape_page(base_url)  # First page
+        
+        for page_num in range(2, total_pages + 1):
+            scrape_page(f"{base_url}?pg={page_num}#sortGroupForm")
+            time.sleep(1)  # Small delay between pages
+        
+        # Save results
+        pd.DataFrame({
+            'Product Name': product_names,
+            'Specification': product_specs,
+            'Price': product_prices
+        }).to_csv(f'pbtech_laptops_on_{datetime.datetime.now().strftime("%Y-%m-%d")}.csv', index=False)
+        
+        print(f"Successfully scraped {len(product_names)} products")
     
 except Exception as e:
     print(f"An error occurred: {e}")
