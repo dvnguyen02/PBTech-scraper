@@ -7,6 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 import time
 import datetime
+import os
 
 # Setup Chrome driver
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
@@ -120,9 +121,9 @@ def get_total_pages():
         return max(page_numbers) if page_numbers else 1
 
 # Main execution
-# cat_list = ["headphones-audio/headphones", "computers/laptops", "phones-gps/smartphones", "components/graphics-cards",
-#             "tv-av/tvs", "networking/routers", "cameras/cameras"]
-cat_list = ["networking/routers"]
+cat_list = ["headphones-audio/headphones", "computers/laptops", "phones-gps/smartphones", "components/graphics-cards",
+            "tv-av/tvs", "networking/routers", "cameras/cameras"]
+# cat_list = ["networking/routers"] test
 try:
     for cat in cat_list:        
         # Scrape all pages
@@ -138,7 +139,10 @@ try:
         for page_num in range(2, total_pages + 1):
             scrape_page(f"{base_url}?pg={page_num}#sortGroupForm")
         
-        # Save results without URLs
+        
+        if not os.path.exists("datas"):
+            os.makedirs("datas")
+        os.chdir("datas/")
         pd.DataFrame({
             'Product Name': product_names,
             'Specification': product_specs,
