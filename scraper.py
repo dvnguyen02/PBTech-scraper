@@ -13,7 +13,7 @@ import os
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 # Lists to store scraped data
-product_names, product_prices, product_specs, product_features = [], [], [], []
+product_names, product_prices, product_specs, product_features, product_categories = [], [], [], [], []
 
 def get_product_details(product_url):
     # Navigate to product page
@@ -123,7 +123,6 @@ def get_total_pages():
 # Main execution
 cat_list = ["headphones-audio/headphones", "computers/laptops", "phones-gps/smartphones", "components/graphics-cards",
             "tv-av/tvs", "networking/routers", "cameras/cameras"]
-# cat_list = ["networking/routers"] test
 try:
     for cat in cat_list:        
         # Scrape all pages
@@ -145,10 +144,11 @@ try:
         os.chdir("datas/")
         pd.DataFrame({
             'Product Name': product_names,
+            'Category': cat,
             'Specification': product_specs,
             'Price': product_prices,
             'Detailed Features': product_features
-        }).to_csv(f'pbtech_{cat.replace("/", "_")}_on_{datetime.datetime.now().strftime("%Y-%m-%d")}.csv', index=False)
+        }).to_json(f'pbtech_data_on_{datetime.datetime.now().strftime("%Y-%m-%d")}.csv', index=False)
         
         print(f"Successfully scraped {len(product_names)} products")
     
