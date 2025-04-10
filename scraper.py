@@ -11,28 +11,48 @@ import datetime
 # Setup Chrome driver
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
-
 # Lists to store scraped data
-product_names, product_prices, product_specs = [], [], []
+product_names, product_prices, product_specs, product_features = [], [], [], []
+
+def get_product_details(product_url):
+    # Navigate to product page
+    driver.get(product_url)
+    print(f"Getting details from: {product_url}")
+    
+    try:
+        # Wait for and extract the product details
+        detail_element = WebDriverWait(driver, 1).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "#undefined1 > div.pt-3"))
+        )
+        return detail_element.text.strip()
+    except Exception as e:
+        print(f"Error getting product details: {e}")
+        return "Details not found"
 
 # Function to scrape products from a single page
 def scrape_page(url):
     driver.get(url)
     print(f"Scraping: {url}")
-    time.sleep(2)  # Brief wait for page load
     
     # Find all product containers
-    WebDriverWait(driver, 10).until(
+    WebDriverWait(driver, 1).until(
         EC.presence_of_all_elements_located((By.CSS_SELECTOR, "#mainCatList .row.w-100.mx-0.ms-xl-2.me-xl-1 > div"))
     )
+    
+    # First collect all basic product data and URLs
+    product_data = []
     product_containers = driver.find_elements(By.CSS_SELECTOR, "#mainCatList .row.w-100.mx-0.ms-xl-2.me-xl-1 > div")
     print(f"Found {len(product_containers)} products")
     
     for container in product_containers:
         try:
             # Extract product details
-            name = container.find_element(By.CSS_SELECTOR, ".card-item-header a h2").text.strip()
+            name_element = container.find_element(By.CSS_SELECTOR, ".card-item-header a h2")
+            name = name_element.text.strip()
             spec = container.find_element(By.CSS_SELECTOR, ".card-item-header a h3").text.strip()
+            
+            # Get product URL
+            product_url = container.find_element(By.CSS_SELECTOR, ".card-item-header a").get_attribute("href")
             
             # JavaScript to extract price
             script = """
@@ -53,14 +73,33 @@ def scrape_page(url):
             
             price = driver.execute_script(script, container)
             
-            # Store the data
-            product_names.append(name)
-            product_prices.append(price)
-            product_specs.append(spec)
+            # Store the basic data with URL for later processing
+            product_data.append({
+                'name': name,
+                'spec': spec,
+                'price': price,
+                'url': product_url
+            })
             
-            print(f"Scraped: {name} - {price}")
+            print(f"Found: {name} - {price}")
         except Exception as e:
-            print(f"Error scraping product: {e}")
+            print(f"Error finding product: {e}")
+    
+    # Now visit each product page to get detailed features
+    for product in product_data:
+        try:
+            # Get detailed features
+            detailed_features = get_product_details(product['url'])
+            
+            # Store all the data
+            product_names.append(product['name'])
+            product_prices.append(product['price'])
+            product_specs.append(product['spec'])
+            product_features.append(detailed_features)
+            
+            print(f"Scraped details for: {product['name']}")
+        except Exception as e:
+            print(f"Error scraping product details: {e}")
 
 # Function to get the total number of pages
 def get_total_pages():
@@ -68,7 +107,7 @@ def get_total_pages():
     last_page_selector = "#mainCatList > div.products_list_wrapper.js-products-list-wrapper.expanded_list.none-swiper.w-100 > div > div.row.w-100.mx-0.pt-3 > div > div > div > ul > li:nth-child(5) > a > span"
     
     try:
-        last_page_element = WebDriverWait(driver, 5).until(
+        last_page_element = WebDriverWait(driver, 3).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, last_page_selector))
         )
         last_page_text = last_page_element.text.strip()
@@ -81,9 +120,9 @@ def get_total_pages():
         return max(page_numbers) if page_numbers else 1
 
 # Main execution
-cat_list = ["headphones-audio/headphones", "computers/laptops", "phones-gps/smartphones", "components/graphics-cards",
-            "tv-av/tvs", "networking/routers", "cameras/cameras"]
-
+# cat_list = ["headphones-audio/headphones", "computers/laptops", "phones-gps/smartphones", "components/graphics-cards",
+#             "tv-av/tvs", "networking/routers", "cameras/cameras"]
+cat_list = ["networking/routers"]
 try:
     for cat in cat_list:        
         # Scrape all pages
@@ -94,19 +133,18 @@ try:
         total_pages = get_total_pages()
         print(f"Found {total_pages} pages to scrape")
         
-        
         scrape_page(base_url)  # First page
         
         for page_num in range(2, total_pages + 1):
             scrape_page(f"{base_url}?pg={page_num}#sortGroupForm")
-            time.sleep(1)  # Small delay between pages
         
-        # Save results
+        # Save results without URLs
         pd.DataFrame({
             'Product Name': product_names,
             'Specification': product_specs,
-            'Price': product_prices
-        }).to_csv(f'pbtech_laptops_on_{datetime.datetime.now().strftime("%Y-%m-%d")}.csv', index=False)
+            'Price': product_prices,
+            'Detailed Features': product_features
+        }).to_csv(f'pbtech_{cat.replace("/", "_")}_on_{datetime.datetime.now().strftime("%Y-%m-%d")}.csv', index=False)
         
         print(f"Successfully scraped {len(product_names)} products")
     
