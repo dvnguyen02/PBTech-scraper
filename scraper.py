@@ -18,11 +18,11 @@ product_names, product_prices, product_specs, product_features, product_categori
 def get_product_details(product_url):
     # Navigate to product page
     driver.get(product_url)
-    print(f"Getting details from: {product_url}")
+    #print(f"Getting details from: {product_url}")
     
     try:
         # Wait for and extract the product details
-        detail_element = WebDriverWait(driver, 1).until(
+        detail_element = WebDriverWait(driver, 2).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "#undefined1 > div.pt-3"))
         )
         return detail_element.text.strip()
@@ -33,10 +33,10 @@ def get_product_details(product_url):
 # Function to scrape products from a single page
 def scrape_page(url):
     driver.get(url)
-    print(f"Scraping: {url}")
+    #print(f"Scraping: {url}")
     
     # Find all product containers
-    WebDriverWait(driver, 1).until(
+    WebDriverWait(driver, 2).until(
         EC.presence_of_all_elements_located((By.CSS_SELECTOR, "#mainCatList .row.w-100.mx-0.ms-xl-2.me-xl-1 > div"))
     )
     
@@ -82,7 +82,7 @@ def scrape_page(url):
                 'url': product_url
             })
             
-            print(f"Found: {name} - {price}")
+            #print(f"Found: {name} - {price}")
         except Exception as e:
             print(f"Error finding product: {e}")
     
@@ -98,7 +98,7 @@ def scrape_page(url):
             product_specs.append(product['spec'])
             product_features.append(detailed_features)
             
-            print(f"Scraped details for: {product['name']}")
+            #print(f"Scraped details for: {product['name']}")
         except Exception as e:
             print(f"Error scraping product details: {e}")
 
@@ -123,8 +123,11 @@ def get_total_pages():
 # Main execution
 cat_list = ["headphones-audio/headphones", "computers/laptops", "phones-gps/smartphones", "components/graphics-cards",
             "tv-av/tvs", "networking/routers", "cameras/cameras"]
+os.chdir("datas/")
 try:
-    for cat in cat_list:        
+    for cat in cat_list:   
+        # Clear previous category data
+        product_names, product_prices, product_specs, product_features, product_categories = [], [], [], [], []     
         # Scrape all pages
         base_url = f"https://www.pbtech.co.nz/category/{cat}/shop-all"
 
@@ -139,16 +142,16 @@ try:
             scrape_page(f"{base_url}?pg={page_num}#sortGroupForm")
         
         
-        if not os.path.exists("datas"):
-            os.makedirs("datas")
-        os.chdir("datas/")
+        
+        os.makedirs(f"{cat}", exist_ok=True)
+        
         pd.DataFrame({
             'Product Name': product_names,
             'Category': cat,
             'Specification': product_specs,
             'Price': product_prices,
             'Detailed Features': product_features
-        }).to_json(f'pbtech_data_on_{datetime.datetime.now().strftime("%Y-%m-%d")}.csv', index=False)
+        }).to_json(f'pbtech_data_on_{datetime.datetime.now().strftime("%Y-%m-%d")}.json', index=False)
         
         print(f"Successfully scraped {len(product_names)} products")
     
