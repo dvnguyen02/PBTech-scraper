@@ -23,7 +23,7 @@ def get_product_details(product_url):
     
     try:
         # Get product name from the product page using the updated selector
-        name_element = WebDriverWait(driver, 3).until(
+        name_element = WebDriverWait(driver, 2).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "#productDiplayPage > div > div:nth-child(2) > div.col-12.js-space-save-top.position-relative > div > div.col-12.col-xl-8.col-xxl-9.js-product-header-block.product-header-block > h1"))
         )
         product_name = name_element.text.strip()
@@ -103,8 +103,11 @@ def scrape_page(url):
             
             # Get price from the list page using the new selector
             try:
-                price_element = container.find_element(By.CSS_SELECTOR, ".priceClass .item-price-amount .ginc span")
-                price = price_element.text.strip().replace('$', '').replace(',', '')
+                price_elements = container.find_elements(By.CSS_SELECTOR, ".priceClass .item-price-amount .ginc span")
+                price_text = ""
+                for e in price_elements:
+                    price_text = price_text+e.text
+                price = price_text.strip().replace('$','').replace(',','')
             except Exception as e:
                 print(f"Error getting price from list for {name}: {e}")
                 price = "Price not found"
@@ -143,7 +146,7 @@ def get_total_pages():
     last_page_selector = "#mainCatList > div.products_list_wrapper.js-products-list-wrapper.expanded_list.none-swiper.w-100 > div > div.row.w-100.mx-0.pt-3 > div > div > div > ul > li:nth-child(5) > a > span"
     
     try:
-        last_page_element = WebDriverWait(driver, 3).until(
+        last_page_element = WebDriverWait(driver, 2).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, last_page_selector))
         )
         last_page_text = last_page_element.text.strip()
@@ -180,15 +183,15 @@ def main():
             # Load first page and get total page count (for information only)
             driver.get(base_url)
             total_pages = get_total_pages()
-            print(f"Found {total_pages} pages for {cat}, but will only scrape page 1")
+            print(f"Found {total_pages} pages for {cat}")
             
             # Scrape only the first page
-            print("Scraping only page 1 for testing purposes")
-            scrape_page(base_url)
+            # print("Scraping only page 1 for testing purposes")
+            # scrape_page(base_url)
             
-            # Commented out the code to scrape remaining pages
-            # for page_num in range(2, total_pages + 1):
-            #     scrape_page(f"{base_url}?pg={page_num}#sortGroupForm")
+            # # Commented out the code to scrape remaining pages
+            for page_num in range(1, total_pages + 1):
+                scrape_page(f"{base_url}?pg={page_num}#sortGroupForm")
             
             # Create a safe category name for the filename (replace / with _)
             safe_cat_name = cat.replace("/", "_")
